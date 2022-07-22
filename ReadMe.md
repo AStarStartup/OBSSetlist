@@ -4,9 +4,13 @@ To create a Setlist write a list of titles for the sub-videos you want to clip f
 
 When you enter or exit the scenes you just configured, it will mark the timestamps when the plugin is activated and deactivated. This will be saved as an IMUL Markdown file in the same folder you loaded the IMUL Markdown script from. When you have stopped recording a BASH or Powershell script will be generated that you can run that will chop up the recording into clips with FFMPEG.
 
-Once this is done you will need to load the IMUL Markdown output into the [AStartup MCC browser extension](https://github.com/AStarStartup/AStartupMCC) by right clicking on the AStartup extension icon in the browser and selecting Run IMUL Script. This will pop up a menu that will walk you through the rest of the process of uploading the clips to social media.
+Once this is done you will need to load the IMUL Markdown output into the [AStartup MCC browser extension](https://github.com/AStarStartup/AStartupMCC) by right clicking on the AStartup extension icon in the browser and selecting Run IMUL Script. This will pop up a menu that will walk you through the rest of the process of uploading the clips to social media. You can also create the IMUL scripts with the MCC.
 
 Posts for social media can be customized using IMUL scripts, which are like Markdown files with scripts in them and a templating engine similar to Liquid/Jekyll.
+
+## Volunteers Needed
+
+We need C++ programmers who are willing to work with my [Script2](https://github.com/KabukiStarship/Script2) RPC and compiler engine. I have to get the API to work with the major C++ APIs so if it doesn't work with your favorite API, I could use help making it work. We also need a JavaScript developer for the [AStartup MCC browser extension](https://github.com/AStarStartup/AStartupMCC). I'm a C++ master but I never got far in JavaScript. There are too many different directed pulling me different ways but it's impossible to avoid the web browser. My end goal is to make the AStartup MCC in Script2 using WebAssembly so you can do front-end web dev in C++.
 
 ## Status
 
